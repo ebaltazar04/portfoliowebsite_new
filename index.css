@@ -1,3 +1,72 @@
 html {
     background-color: white;
+    font-size: 16px;
 }
+
+header {
+    background-color: rgb(158, 172, 231);
+    
+}  
+
+nav {
+    background-color: rgb(120, 117, 117);
+    /* display: flex; */
+  }
+
+
+nav ul {
+    display: flex;
+  }
+
+
+li {
+    margin-right: 25px;
+  }
+
+
+main {
+    background-color: rgb(242, 171, 171);
+    background-image: url('/Users/edgardobaltazar/Desktop/Project_New/images/losangeles.jpg');
+    background-size: cover;
+    background-position-y: center;
+    height: 18rem;
+  }
+
+section {
+    padding: 5rem 5rem;
+}
+ 
+  .about_me {
+    background-color: aquamarine;
+  }
+
+  .image_1 {
+    width: 25rem;
+    height: 100%;
+  }
+
+  .about_me p {
+    text-align: unset;
+    line-height: 1.7rem;
+  }
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projects div {
+    background-color: rgb(103, 101, 101);
+    width: 35rem;
+    height: auto;
+    padding: 1rem auto;
+    border: 4px black solid;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .projects img {
+    width: 375px;
+    height: auto;
+  }
