@@ -25,37 +25,39 @@ li {
 
 
 main {
-    background-color: rgb(242, 171, 171);
-    background-image: url('/Users/edgardobaltazar/Desktop/Project_New/images/losangeles.jpg');
+    /* background-image: url('/Users/edgardobaltazar/Desktop/Project_New/images/LA_image7.jpg'); */
+    background-image: url('/Users/edgardobaltazar/Desktop/Project_New/images/LA_image2.jpg');
     background-size: cover;
-    background-position-y: center;
-    height: 18rem;
+    background-position-y: 45%;
+    height: 25rem;
   }
 
 section {
     padding: 5rem 5rem;
 }
  
-  .about_me {
-    background-color: aquamarine;
+.about_me {
+    background-color: #6da2d9;
   }
 
-  .image_1 {
+.image_1 {
     width: 25rem;
     height: 100%;
   }
 
-  .about_me p {
+.about_me p {
     text-align: unset;
     line-height: 1.7rem;
   }
 
-  .projects {
+.projects_container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .projects div {
+
+.projects_container div {
     background-color: rgb(103, 101, 101);
     width: 35rem;
     height: auto;
@@ -66,7 +68,7 @@ section {
     border-radius: 5px;
   }
 
-  .projects img {
-    width: 375px;
+.projects img {
+    width: 21rem;
     height: auto;
   }
