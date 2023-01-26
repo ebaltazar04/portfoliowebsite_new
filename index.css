@@ -1,16 +1,17 @@
 html {
     background-color: white;
     font-size: 16px;
+    background-color: rgb(41, 45, 51);
 }
 
-header {
-    background-color: rgb(158, 172, 231);
-    
-}  
+/* header {
+    background-color: #6da2d9;
+} */
 
 nav {
-    background-color: rgb(120, 117, 117);
-    /* display: flex; */
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: right;
   }
 
 
@@ -19,9 +20,22 @@ nav ul {
   }
 
 
-li {
+nav li {
     margin-right: 25px;
+    color: white;
+    text-decoration: underline;
   }
+a:visited {
+    color: white;
+}
+
+nav li:hover {
+    color: #ea6710;
+}
+
+a:hover {
+    color: #ea6710;
+}
 
 
 main {
@@ -30,11 +44,34 @@ main {
     background-size: cover;
     background-position-y: 45%;
     height: 25rem;
+    width: auto;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 25%;
   }
 
-section {
-    padding: 5rem 5rem;
+.name {
+    font-family: Roboto, sans-serif;
+    background-color: rgba(230, 232, 232, 0.503);
+    border: 2px solid #ea6710;
+    margin: 13px 20px;
 }
+
+
+section {
+    padding: 2rem 1rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .skills div {
+    position: absolute;
+    top: 45rem;
+    z-index: 5;
+} */
  
 .about_me {
     background-color: #6da2d9;
