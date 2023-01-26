@@ -62,16 +62,59 @@ section {
     padding: 2rem 1rem;
 }
 
+            /* SKILLS SECTION  */
 .skills {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-/* .skills div {
-    position: absolute;
-    top: 45rem;
-    z-index: 5;
-} */
+.skills div {
+    height: 8rem;
+    width: 9rem;
+    display: flex;
+    justify-content: center;
+    min-width: 150px;
+    border-radius: 3px;
+    /* align-content: space-around; */
+}
+
+.skills img {
+    width: 4rem;
+    height: 4rem;
+    opacity: 0.9;
+    color: rgba(128, 128, 128, 0.482);
+    border: solid 1px black;
+    margin-left: 27%;
+    margin-top: 10%;
+}
+
+.skills h4 {
+    text-align: center;
+    color: white;
+}
+
+.skills .html {
+    background-color: #6da2d9;
+    flex-direction: column;
+}
+
+.skills .css {
+    background-color: #ea6710;
+    flex-direction: column;
+}
+
+.skills .js {
+    background-color: #fb3700;
+    flex-direction: column;
+}
+
+.skills .git {
+    background-color: rgb(56, 139, 77);
+    flex-direction: column;
+}
+
+
  
 .about_me {
     background-color: #6da2d9;
