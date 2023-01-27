@@ -9,7 +9,6 @@ html {
 } */
 
 nav {
-    margin-bottom: 10px;
     display: flex;
     justify-content: right;
   }
@@ -54,7 +53,8 @@ main {
     font-family: Roboto, sans-serif;
     background-color: rgba(230, 232, 232, 0.503);
     border: 2px solid #ea6710;
-    margin: 13px 20px;
+    /* margin: 10px 25px; */
+    margin: 3% 3%;
 }
 
 
@@ -70,12 +70,13 @@ section {
 }
 
 .skills div {
-    height: 8rem;
+    height: 11rem;
     width: 9rem;
     display: flex;
     justify-content: center;
     min-width: 150px;
     border-radius: 3px;
+    margin: 10px 5px;
     /* align-content: space-around; */
 }
 
@@ -85,11 +86,12 @@ section {
     opacity: 0.9;
     color: rgba(128, 128, 128, 0.482);
     border: solid 1px black;
-    margin-left: 27%;
+    margin-left: 28%;
     margin-top: 10%;
 }
 
 .skills h4 {
+    font-family: Roboto, sans-serif;
     text-align: center;
     color: white;
 }
@@ -117,15 +119,33 @@ section {
 
  
 .about_me {
-    background-color: #6da2d9;
+    /* background-color: #ff7614d5; */
+    color: white;
+    display: flex;
+    justify-content: center;
   }
 
+.about_me_image {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    /* min-width: 15rem; */
+}
 .image_1 {
-    width: 25rem;
-    height: 100%;
+    min-width: 14rem;
+    max-width: 18rem;
+    height: auto;
   }
+
+.about_me_paragraph {
+    margin-top: 2rem;
+}
+
+.about_me h3 {
+    font-family: Roboto, sans-serif;
+}
 
 .about_me p {
+    font-family: Roboto, sans-serif;
     text-align: unset;
     line-height: 1.7rem;
   }
@@ -152,3 +172,16 @@ section {
     width: 21rem;
     height: auto;
   }
+
+
+  @media only screen and (max-width: 765px) {
+    
+    .about_me {
+     display: flex;
+     flex-wrap: wrap;
+     }
+    }
+
+    .about_me_paragraph {
+        margin-top: 3rem;
+    }
