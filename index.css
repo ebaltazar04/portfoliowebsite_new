@@ -24,12 +24,14 @@ nav li {
     color: white;
     text-decoration: underline;
   }
-a:visited {
+
+  a:visited {
     color: white;
 }
 
 nav li:hover {
     color: #ea6710;
+    cursor: pointer;
 }
 
 a:hover {
@@ -123,12 +125,24 @@ section {
     color: white;
     display: flex;
     justify-content: center;
+    border: 2px #ea6710 solid;
+    border-radius: 7px;
   }
 
 .about_me_image {
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 4rem;
+    text-align: center;
     /* min-width: 15rem; */
+}
+
+.about_me_image button {
+    margin-top: 10px;
+}
+
+.about_me_image button:hover {
+    color: #ea6710;
+    cursor: pointer;
 }
 .image_1 {
     min-width: 14rem;
@@ -136,19 +150,27 @@ section {
     height: auto;
   }
 
-.about_me_paragraph {
-    margin-top: 2rem;
-}
-
 .about_me h3 {
+    font-size: 2.5rem;
     font-family: Roboto, sans-serif;
 }
 
 .about_me p {
     font-family: Roboto, sans-serif;
     text-align: unset;
-    line-height: 1.7rem;
+    line-height: 1.9rem;
   }
+
+.projects {
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
 
 .projects_container {
     display: flex;
@@ -158,15 +180,15 @@ section {
 
 
 .projects_container div {
-    background-color: rgb(103, 101, 101);
-    width: 35rem;
+    width: 34rem;
     height: auto;
-    padding: 1rem auto;
-    border: 4px black solid;
-    /* margin-bottom: 20px; */
+    padding: 3rem auto;
+    margin: 10px 10px;
+    border: 2px #ea6710 solid;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 7px;
   }
+
 
 .projects img {
     width: 21rem;
@@ -174,14 +196,30 @@ section {
   }
 
 
-  @media only screen and (max-width: 765px) {
+  @media only screen and (max-width: 855px) {
     
-    .about_me {
-     display: flex;
-     flex-wrap: wrap;
+.about_me {
+    display: flex;
+    flex-wrap: wrap;
      }
+
+
+.about_me_image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     }
 
-    .about_me_paragraph {
-        margin-top: 3rem;
+.about_me_image img {
+    margin: 15px 0px;
+}
+
+.about_me_image button {
+    max-width: fit-content;
+}
+
+.about_me_paragraph {
+    margin-top: 1rem;
     }
+
+}
