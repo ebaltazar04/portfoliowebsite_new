@@ -8,7 +8,9 @@ function skillOne() {
     popOne.style.width = '13rem';
     popOne.style.display = 'flex';
     popOne.style.justifyContent = 'center';
-    imageHTML.style.marginLeft = '34%';
+    imageHTML.style.marginLeft = '32%';
+    imageHTML.style.height = '5rem';
+    imageHTML.style.width = '5rem';
 }
 
 function removePopOne() {
@@ -17,6 +19,8 @@ function removePopOne() {
     popOne.style.display = 'flex';
     popOne.style.justifyContent = 'center';
     imageHTML.style.marginLeft = '28%';
+    imageHTML.style.height = '4rem';
+    imageHTML.style.widtht = '4rem';
 }
 
 popOne.addEventListener('mouseover', skillOne);
