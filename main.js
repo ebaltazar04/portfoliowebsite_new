@@ -1,30 +1,24 @@
-let skillSets = document.getElementById('skill');
-let popOne = skillSets.getElementsByTagName('div')[0];
-let imageHTML = popOne.getElementsByTagName('img')[0];
+// let skillSets = document.getElementById('skill');
+// let popOne = skillSets.getElementsByTagName('div')[0];
+// let imageHTML = popOne.getElementsByTagName('img')[0];
 
 
-function skillOne() {
-    popOne.style.height = '13rem';
-    popOne.style.width = '13rem';
-    popOne.style.display = 'flex';
-    popOne.style.justifyContent = 'center';
-    imageHTML.style.marginLeft = '32%';
-    imageHTML.style.height = '5rem';
-    imageHTML.style.width = '5rem';
-}
+// function skillOne() {
+//     popOne.style.height = '13rem';
+//     popOne.style.width = '13rem';
+//     imageHTML.style.height = '5rem';
+//     imageHTML.style.width = '50%';
+// }
 
-function removePopOne() {
-    popOne.style.height = '11rem';
-    popOne.style.width = '9rem';
-    popOne.style.display = 'flex';
-    popOne.style.justifyContent = 'center';
-    imageHTML.style.marginLeft = '28%';
-    imageHTML.style.height = '4rem';
-    imageHTML.style.widtht = '4rem';
-}
+// function removePopOne() {
+//     popOne.style.height = '11rem';
+//     popOne.style.width = '9rem';
+//     imageHTML.style.height = '4rem';
+//     imageHTML.style.width = '50%';
+// }
 
-popOne.addEventListener('mouseover', skillOne);
-popOne.addEventListener('mouseleave', removePopOne);
+// popOne.addEventListener('mouseover', skillOne);
+// popOne.addEventListener('mouseleave', removePopOne);
 
 // console.log(skillSets);
 // console.log(pop);

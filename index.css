@@ -79,17 +79,29 @@ section {
     min-width: 150px;
     border-radius: 3px;
     margin: 10px 5px;
-    /* align-content: space-around; */
+    /* opacity: 0.9; */
+    transition: width 0.5s, height 0.5s;
+}
+
+.skills div:hover {
+    height: 12.5rem;
+    width: 10.5rem;
 }
 
 .skills div img {
-    width: 4rem;
+    /* width: 4rem; */
     height: 4rem;
-    opacity: 0.9;
-    color: rgba(128, 128, 128, 0.482);
-    border: solid 1px black;
-    margin-left: 28%;
+    opacity: 0.8;
+    /* border: solid 1px black; */
     margin-top: 10%;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .skills h4 {
@@ -160,6 +172,23 @@ section {
     font-family: Roboto, sans-serif;
     text-align: unset;
     line-height: 1.9rem;
+  }
+
+  .contact_icons {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .contact_icons img {
+    width: 3rem;
+    height: auto;
+    transition: width 0.5s, height 0.5s;
+  }
+
+  .contact_icons img:hover {
+    width: 3.5rem;
+    height: auto;
   }
 
 
