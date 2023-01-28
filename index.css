@@ -182,8 +182,9 @@ section {
     border: 1px solid #ea6710;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-top: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .contact_icons img {
