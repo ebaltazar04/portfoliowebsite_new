@@ -178,6 +178,12 @@ section {
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
+    background-color: rgba(230, 232, 232, 0.175);
+    border: 1px solid #ea6710;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 
   .contact_icons img {
@@ -214,8 +220,10 @@ section {
 .projects_container div {
     width: 34rem;
     height: auto;
-    padding: 3rem auto;
-    margin: 10px 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0.75rem 0.75rem;
+    background-color: rgba(230, 232, 232, 0.202);
     border: 2px #ea6710 solid;
     text-align: center;
     border-radius: 7px;
