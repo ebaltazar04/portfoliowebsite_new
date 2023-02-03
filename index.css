@@ -40,7 +40,7 @@ a:hover {
 
 main {
     /* background-image: url('/Users/edgardobaltazar/Desktop/Project_New/images/LA_image7.jpg'); */
-    background-image: url('./images/LA_image2.jpg');
+    background-image: url('../images/LA_image2.jpg');
     background-size: cover;
     background-position-y: 45%;
     height: 25rem;
