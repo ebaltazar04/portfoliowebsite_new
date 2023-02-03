@@ -14,8 +14,12 @@ nav {
 
 nav ul {
     display: flex;
+    color: white;
   }
 
+nav li::before {
+    color: white;
+}
 
 nav li {
     margin-right: 25px;
