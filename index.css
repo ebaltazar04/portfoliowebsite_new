@@ -14,20 +14,18 @@ nav {
 
 nav ul {
     display: flex;
-    color: white;
   }
-
-nav li::before {
-    color: white;
-}
 
 nav li {
     margin-right: 25px;
     color: white;
     text-decoration: underline;
   }
+nav ul li a:link {
+    color: white;
+}
 
-a:visited {
+nav ul a:visited {
     color: white;
 }
 
