@@ -21,13 +21,10 @@ nav li {
     color: white;
     text-decoration: underline;
   }
-nav ul li a:link {
+nav li a:link {
     color: white;
 }
 
-nav ul a:visited {
-    color: white;
-}
 
 nav li:hover {
     color: #ea6710;
